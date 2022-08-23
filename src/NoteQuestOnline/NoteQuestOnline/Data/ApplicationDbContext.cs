@@ -13,5 +13,11 @@ namespace NoteQuestOnline.Data
         {
 
         }
+
+        public DbSet<Adventurer> Adventurers { get; set; }
+        public DbSet<Race> Races { get; set; }
+        public DbSet<AdventurerClass> AdventurerClasses { get; set; }
+        public DbSet<Spell> Spells { get; set; }
+        public DbSet<SpellEffect> SpellEffects { get; set; }
     }
 }
